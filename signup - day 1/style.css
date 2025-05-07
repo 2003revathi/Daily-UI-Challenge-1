@@ -1,0 +1,50 @@
+.align-item-center {
+  height: 160px;
+  display: flex;
+  align-items: space-around;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  row-gap: 5px;
+  padding: 15px;
+}
+h1 {
+  color: black;
+  font-family: "Courier New";
+  box-shadow: #2196f3;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding-inline: 10px;
+}
+body {
+  font-family: sans-serif;
+  font-size: x-large;
+}
+.radio-label {
+  padding: 15px;
+}
+label {
+  font-weight: bold;
+}
+.radio-button {
+  font-weight: bold;
+}
+input {
+  border-radius: 1px;
+}
+button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block; /* Prevent full-width */
+  width: auto; /* Don't stretch */
+}
